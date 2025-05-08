@@ -138,8 +138,8 @@ export default function PokeCard(props) {
       </div>
       <img
         className="default-img"
-        src={`${process.env.PUBLIC_URL}/pokemon/" + getFullPokedexNumber(selectedPokemon) + ".png"`}
-        alt={`${name}-large-img`}
+        src={`/pokem/` + getFullPokedexNumber(selectedPokemon) + '.png'}
+              alt={`${name}-large-img`}
       />
 
       <div className="img-container">
